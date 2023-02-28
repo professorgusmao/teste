@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@1&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Trirong:wght@100&display=swap');
+          
+          :root 
+          {
+            --font1: 'Dancing Script', cursive;
+            --font2: 'Righteous', cursive;
+            --font3: 'Poiret One', cursive;
+            --font4: 'Bad Script', cursive;
+            --font5: 'Source Serif Pro', serif;
+            --font6: 'Baskervville', serif;
+            --font7: 'EB Garamond', serif;
+            --font8: 'Trirong', serif;
+          }
+
+          * 
+          {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+          }
+
+          html
+          {
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            background: radial-gradient(#f5dee2,#f5dee2, #f7b3cd);
+            background-attachment: fixed;
+          }
+          header
+          {
+            display: flex;
+            position: sticky;
+            top: 0%;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(20px);
+          }
+          .container-header
+          {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          .container-header h1
+          {
+            font-family: var(--font2);
+            font-size: 4em;
+          }
+          .container-header span
+          {
+            font-family: var(--font3);
+            font-size: 2em;
+          }
+          main
+          {
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+            justify-content: center;
+          }
+          main *
+          {
+            margin: 10px;
+          }
+          .container-imagem.one
+          {
+            position: fixed;
+            left: 0%;
+          }
+          .container-imagem.one img
+          {
+            width: 20vw;
+          }
+          .container-imagem.two
+          {
+            position: fixed;
+            right: -1%;
+          }
+          .container-imagem.two img
+          {
+            width: 20vw;
+          }
+          .container-section
+          {
+            display: flex;
+            flex-direction: column;
+            max-width: 50vw;
+            min-height: 500px;
+            background: white;
+          }
+          .container-section section
+          {
+            background: lightgrey;
+            font-size: 2rem;
+          }
