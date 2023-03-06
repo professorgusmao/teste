@@ -32,7 +32,7 @@
             position: absolute;
             width: 100vw;
             height: 100vh;
-            background: radial-gradient(#f5dee2,#f5dee2, #f7b3cd);
+            background: url();
             background-attachment: fixed;
           }
           header
